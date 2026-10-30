@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HsUwNyM0zkKSFPHXCtCkcg" Reference="tVWRTIp3Kke8jKrH7d_IdA/tsQWZdGQg02OfAQaF-4MPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html" CVScreenId="b05bf54c-7f70-4628-bf6c-bbc08b2f5910" CvType="AnyWordGroup" DesignTimeRectangle="927, 508, 914, 55" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TD' parentclass='table table-striped' rowName='Price (incl. tax)' /&gt;" Guid="8b86bb25-9063-45d5-accf-a095a9ee5321" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="79, 508, 848, 55" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TH' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Price (incl. tax)' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Price (incl. tax)' /&gt;" Guid="26684848-94a6-4128-bfd2-3974ffb919ec" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c5f0f021d4a7e00963745b8366044940.jpg" xmlns="">0Ao5eq0LoG0GM93EKFJBhSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

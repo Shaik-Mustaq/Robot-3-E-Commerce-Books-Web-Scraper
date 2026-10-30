@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="D46LU1tX6k-9E52FeiiyuA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="books.toscrape.com/index.html" CVScreenId="e0f1afe9-a146-4ea9-bac9-643829868f16" CvElementArea="1754, 1015, 90, 52" CvTextArea="1776, 1031, 43, 19" CvTextArgument="next" CvType="Button" DesignTimeRectangle="1757, 1017, 84, 47" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='next' tag='A' /&gt;" Guid="d3bb2b82-c86b-4b3a-9a3c-0695ae2b220e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All products | Books to Scrape - Sandbox' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="27" Y="16" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="26b231cd06179225d58ddc4b2637b5f6.jpg" xmlns="">0F3H4dFaDoU60a2n8A0GwbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

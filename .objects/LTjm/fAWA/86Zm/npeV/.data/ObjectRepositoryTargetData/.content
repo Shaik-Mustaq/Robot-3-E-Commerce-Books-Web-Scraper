@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="U2gc77J-9kOiorNim0lVYg" Reference="tVWRTIp3Kke8jKrH7d_IdA/npeVHxKmwkmpIbzNUeLkoQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="books.toscrape.com/index.html" DesignTimeRectangle="624, 1016, 145, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[string.Format(&quot;&lt;webctrl tag='A' parentclass='product_pod' idx='{0}' /&gt;&quot;, ListingNumber)]" Guid="ea3017c7-61b6-45ad-9b10-e8e9c62859bc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All products | Books to Scrape - Sandbox' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="eae02fa6d80c481f0d78340883d56b7a.jpg" xmlns="">0GwDnUjt5vUmXPA8u1148VQ</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData IsString="False" Name="ListingNumber">
+        <ObjectRepositoryVariableData.DefaultValue>
+          <x:Int32>1</x:Int32>
+        </ObjectRepositoryVariableData.DefaultValue>
+      </ObjectRepositoryVariableData>
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

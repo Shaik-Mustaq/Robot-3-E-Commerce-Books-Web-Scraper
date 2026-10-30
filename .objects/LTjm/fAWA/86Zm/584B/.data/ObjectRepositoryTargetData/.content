@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tFJTcnlg206h9TEtyHUWAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html" CVScreenId="bb386062-cc7e-4273-a52a-62dc520f519f" CvType="AnyWordGroup" DesignTimeRectangle="292, 446, 143, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' parentclass='breadcrumb' /&gt;" Guid="ea7596f2-db0d-41fe-a11e-cc594584dc73" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sapiens: A Brief History of Humankind | Books to Scrape - Sandbox' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bb386062-cc7e-4273-a52a-62dc520f519f" CvTextArea="194, 447, 61, 21" CvTextArgument="Books" CvType="Text" DesignTimeRectangle="195, 446, 59, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Books' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='A' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Books' /&gt;" Guid="c9459613-c176-4aa0-97e8-f4b179e59903" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8f32ac8be3e31706b6a6dd6b4b04f2e7.jpg" xmlns="">0OvRQwPBjKEaTltnWVw-7Ew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

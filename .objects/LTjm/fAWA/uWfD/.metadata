@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Princess Jellyfish 2-in-1 Omnibus, Vol",
+  "Type": "Screen",
+  "Id": "uWfDAoq1AEOYxFmwynFV9w",
+  "Reference": "tVWRTIp3Kke8jKrH7d_IdA/uWfDAoq1AEOYxFmwynFV9w",
+  "ParentRef": "tVWRTIp3Kke8jKrH7d_IdA/fAWAxsWzAEmOIXJ-q60O-g",
+  "Created": "2026-10-26T16:18:29.5341844Z",
+  "Updated": "2026-10-26T16:18:29.5341844Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

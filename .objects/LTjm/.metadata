@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome All products  Books to Scrape - Sandbox",
+  "Type": "App",
+  "Id": "LTjmKyq71UqMoKeaeb8DTA",
+  "Reference": "tVWRTIp3Kke8jKrH7d_IdA/LTjmKyq71UqMoKeaeb8DTA",
+  "Created": "2026-10-26T15:09:40.9687396Z",
+  "Updated": "2026-10-26T15:09:40.9687396Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

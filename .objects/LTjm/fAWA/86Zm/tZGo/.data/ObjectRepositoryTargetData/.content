@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k8d9mIjSmE2pDzyB2ikNlw" Reference="tVWRTIp3Kke8jKrH7d_IdA/tZGopdgtEkKqyNjpJFMlAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html" CVScreenId="9a24084e-dda2-44db-a7f8-fe83a7729b44" CvType="AnyWordGroup" DesignTimeRectangle="927, 1907, 914, 55" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TD' parentclass='table table-striped' rowName='Availability' /&gt;" Guid="113a9471-50fa-4cc4-bdd8-60fdb3df9d0d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="79, 1907, 848, 55" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TH' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Availability' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Availability' /&gt;" Guid="b39e7eb9-3dbe-4dea-9560-c3245c4d368a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a0797cc6291313beabda2b6f6bb342d8.jpg" xmlns="">0FCrM3yeUe0KvRmMLJZ2KCA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
