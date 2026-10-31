@@ -120,7 +120,7 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="874,6788.666666666668" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="874,6898.666666666668" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd2:DataTable" Name="ExtractedDataTable" />
       <Variable x:TypeArguments="x:String" Name="ExtractedDataTableText" />
@@ -264,13 +264,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Attach Browser -  Books to Scrape" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="560,5683.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="Simulate" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="ef8b9764-3017-470c-839a-ae6e550562d2" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Attach Browser -  Books to Scrape" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="560,5793.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="Simulate" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="ef8b9764-3017-470c-839a-ae6e550562d2" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,5479.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,5589.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Int32" Default="0" Name="PageIndex" />
             </Sequence.Variables>
@@ -330,9 +330,9 @@
                 <InArgument x:TypeArguments="x:String">["Books_Details_Output_" + Now.ToString("ddMMyyy_HHmmss") + ".xlsx"]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:InterruptibleWhile CurrentIndex="[PageIndex]" DisplayName="While for page no. limit" sap:VirtualizedContainerService.HintSize="488,5185.333333333333" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1" MaxIterations="49">
+            <ui:InterruptibleWhile CurrentIndex="[PageIndex]" DisplayName="While for page no. limit" sap:VirtualizedContainerService.HintSize="488,5295.333333333333" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1" MaxIterations="49">
               <ui:InterruptibleWhile.Body>
-                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,5062.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,5172.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_11">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:Int32" Default="0" Name="ListIndex" />
                   </Sequence.Variables>
@@ -343,9 +343,9 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:LogMessage DisplayName="Log Message Current Page No." sap:VirtualizedContainerService.HintSize="452,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Scraping Page. &quot; +(PageIndex+1).ToString]" />
                   <WriteLine DisplayName="Write Line Listing Index" sap:VirtualizedContainerService.HintSize="452,124" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[PageIndex.ToString]" />
-                  <ui:InterruptibleWhile CurrentIndex="[ListIndex]" DisplayName="While Page listing limit" sap:VirtualizedContainerService.HintSize="452,4516" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3" MaxIterations="20">
+                  <ui:InterruptibleWhile CurrentIndex="[ListIndex]" DisplayName="While Page listing limit" sap:VirtualizedContainerService.HintSize="452,4626" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3" MaxIterations="20">
                     <ui:InterruptibleWhile.Body>
-                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,4384" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,4494" sap2010:WorkflowViewState.IdRef="Sequence_12">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:Decimal" Name="DecimalPrice" />
                           <Variable x:TypeArguments="x:Int32" Default="0" Name="ListingNumber" />
@@ -454,7 +454,7 @@
                           <uix:NGetText.Target>
                             <uix:TargetAnchorable BrowserURL="books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html" CVScreenId="bb386062-cc7e-4273-a52a-62dc520f519f" ContentHash="tFJTcnlg206h9TEtyHUWAw" CvType="AnyWordGroup" DesignTimeRectangle="292, 446, 143, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' parentclass='breadcrumb' /&gt;" Guid="ea7596f2-db0d-41fe-a11e-cc594584dc73" InformativeScreenshot="8f32ac8be3e31706b6a6dd6b4b04f2e7.jpg" Reference="tVWRTIp3Kke8jKrH7d_IdA/584B9yKCck6A3SUtK67gJQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sapiens: A Brief History of Humankind | Books to Scrape - Sandbox' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                               <uix:TargetAnchorable.Anchors>
-                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                   <uix:Target CVScreenId="bb386062-cc7e-4273-a52a-62dc520f519f" CvTextArea="194, 447, 61, 21" CvTextArgument="Books" CvType="Text" DesignTimeRectangle="195, 446, 59, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Books' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='A' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Books' /&gt;" Guid="c9459613-c176-4aa0-97e8-f4b179e59903" SearchSteps="FuzzySelector, CV" />
                                 </scg:List>
                               </uix:TargetAnchorable.Anchors>
@@ -462,13 +462,31 @@
                           </uix:NGetText.Target>
                         </uix:NGetText>
                         <ui:LogMessage DisplayName="Log Message Book Category" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;Category: &quot; +BookCategory]" />
-                        <ui:BuildDataTable DataTable="[dt_BooksDataOutput]" DisplayName="Build Data Table for Output Data Table" sap:VirtualizedContainerService.HintSize="416,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Book_x0020_URL&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Title&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Category&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Price&quot; msdata:Caption=&quot;&quot; type=&quot;xs:decimal&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Quantity&quot; msdata:Caption=&quot;&quot; type=&quot;xs:short&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Inventory_x0020_Value&quot; msdata:Caption=&quot;&quot; type=&quot;xs:decimal&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;      &lt;xs:unique name=&quot;Constraint1&quot;&gt;&#xD;&#xA;        &lt;xs:selector xpath=&quot;.//TableName&quot; /&gt;&#xD;&#xA;        &lt;xs:field xpath=&quot;Book_x0020_URL&quot; /&gt;&#xD;&#xA;      &lt;/xs:unique&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
-                        <ui:BuildDataTable DataTable="[dt_BooksDataOutputHeaders]" DisplayName="Build Data Table for headers" sap:VirtualizedContainerService.HintSize="416,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Book_x0020_URL&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Title&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Category&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Price&quot; msdata:Caption=&quot;&quot; type=&quot;xs:decimal&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Quantity&quot; msdata:Caption=&quot;&quot; type=&quot;xs:short&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Inventory_x0020_Value&quot; msdata:Caption=&quot;&quot; type=&quot;xs:decimal&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;      &lt;xs:unique name=&quot;Constraint1&quot;&gt;&#xD;&#xA;        &lt;xs:selector xpath=&quot;.//TableName&quot; /&gt;&#xD;&#xA;        &lt;xs:field xpath=&quot;Book_x0020_URL&quot; /&gt;&#xD;&#xA;      &lt;/xs:unique&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
+                        <ui:BuildDataTable DataTable="[dt_BooksDataOutput]" DisplayName="Build Data Table for Output Data Table" sap:VirtualizedContainerService.HintSize="416,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Book_x0020_URL&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Title&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Category&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Price&quot; msdata:Caption=&quot;&quot; type=&quot;xs:decimal&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Quantity&quot; msdata:Caption=&quot;&quot; type=&quot;xs:short&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Inventory_x0020_Value&quot; msdata:Caption=&quot;&quot; type=&quot;xs:decimal&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;      &lt;xs:unique name=&quot;Constraint1&quot;&gt;&#xA;        &lt;xs:selector xpath=&quot;.//TableName&quot; /&gt;&#xA;        &lt;xs:field xpath=&quot;Book_x0020_URL&quot; /&gt;&#xA;      &lt;/xs:unique&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+                        <ui:BuildDataTable DataTable="[dt_BooksDataOutputHeaders]" DisplayName="Build Data Table for headers" sap:VirtualizedContainerService.HintSize="416,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Book_x0020_URL&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Title&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Category&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Price&quot; msdata:Caption=&quot;&quot; type=&quot;xs:decimal&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Quantity&quot; msdata:Caption=&quot;&quot; type=&quot;xs:short&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Inventory_x0020_Value&quot; msdata:Caption=&quot;&quot; type=&quot;xs:decimal&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;      &lt;xs:unique name=&quot;Constraint1&quot;&gt;&#xA;        &lt;xs:selector xpath=&quot;.//TableName&quot; /&gt;&#xA;        &lt;xs:field xpath=&quot;Book_x0020_URL&quot; /&gt;&#xA;      &lt;/xs:unique&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
                         <ui:WriteRange DataTable="[dt_BooksDataOutputHeaders]" DisplayName="Write Range Workbook_Headers" sap:VirtualizedContainerService.HintSize="416,282" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="[BookCategory]" StartingCell="A1" WorkbookPath="[ExcelFilePath]" />
                         <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[New Object() {CurrentPageURL, BookTitle, BookCategory, DecimalPrice, IntQuantity, InventoryValue}]" DataTable="[dt_BooksDataOutput]" DisplayName="Add Data Row to Output Data Table" sap:VirtualizedContainerService.HintSize="416,223.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
-                        <ui:AppendRange DataTable="[dt_BooksDataOutput]" DisplayName="Append Range Workbook From Data Table" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="AppendRange_3" SheetName="[BookCategory]" WorkbookPath="[ExcelFilePath]" />
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+                          <ui:CommentOut.Body>
+                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,280" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:AppendRange DataTable="[dt_BooksDataOutput]" DisplayName="Append Range Workbook From Data Table" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="AppendRange_3" SheetName="[BookCategory]" WorkbookPath="[ExcelFilePath]" />
+                            </Sequence>
+                          </ui:CommentOut.Body>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:CommentOut>
+                        <ui:WriteRange DataTable="[dt_BooksDataOutput]" DisplayName="Write Range Workbook From Data Table" sap:VirtualizedContainerService.HintSize="416,282" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="[BookCategory]" StartingCell="A2" WorkbookPath="[ExcelFilePath]" />
                         <ui:LogMessage DisplayName="Log Successfull Append Message" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;Successfully Added to Excel Workbook!&quot;]" />
-                        <uix:NNavigateBrowser DelayBefore="1" DisplayName="Navigate Browser - Go Back To All Products" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_2" ScopeIdentifier="ef8b9764-3017-470c-839a-ae6e550562d2" Version="V5" />
+                        <uix:NNavigateBrowser DisplayName="Navigate Browser - Go Back To All Products" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_2" ScopeIdentifier="ef8b9764-3017-470c-839a-ae6e550562d2" Version="V5" />
                       </Sequence>
                     </ui:InterruptibleWhile.Body>
                     <ui:InterruptibleWhile.Condition>
@@ -483,7 +501,7 @@
                 </Sequence>
               </ui:InterruptibleWhile.Body>
               <ui:InterruptibleWhile.Condition>
-                <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="PageIndex&lt;50" />
+                <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="PageIndex&lt;=50" />
               </ui:InterruptibleWhile.Condition>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -555,7 +573,7 @@
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ueab:SortX DisplayName="Sort Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="452,378" sap2010:WorkflowViewState.IdRef="SortX_1" Range="[CurrentSheet]">
+                            <ueab:SortX DisplayName="Sort Range to Ascending" HasHeaders="True" sap:VirtualizedContainerService.HintSize="452,378" sap2010:WorkflowViewState.IdRef="SortX_1" Range="[CurrentSheet]">
                               <ueab:SortX.Body>
                                 <ActivityAction>
                                   <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_17">
@@ -564,7 +582,7 @@
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <ueab:SortColumnX ColumnName="Inventory Value" DisplayName="Sort By Column" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="SortColumnX_1" SortDirection="Ascending" />
+                                    <ueab:SortColumnX ColumnName="Inventory Value" DisplayName="Sort By Inventory Value Column" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="SortColumnX_1" SortDirection="Ascending" />
                                   </Sequence>
                                 </ActivityAction>
                               </ueab:SortX.Body>
